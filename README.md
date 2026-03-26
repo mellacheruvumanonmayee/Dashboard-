@@ -1,23 +1,45 @@
-Medilytics – Healthcare Revenue Analytics Dashboard
-
-Medilytics is a multi-page, role-based healthcare revenue analytics dashboard designed to help hospitals monitor financial performance and optimize their revenue cycle management (RCM). Built using Streamlit, the platform provides an end-to-end analytical view of hospital billing and claims data.
-
-The dashboard enables users to track key financial KPIs such as total revenue, approval rates, and revenue leakage. It incorporates advanced analytics features including claim denial analysis, anomaly detection in billing patterns, and predictive revenue forecasting using time series models.
-
-With separate views for executives and analysts, Medilytics ensures a structured and user-specific experience through role-based access control. Interactive visualizations and filters allow users to explore data dynamically and make informed decisions.
-
-Key features:
-
-Real-time financial performance monitoring Revenue leakage detection and insights Claim denial prediction and analysis Forecasting future revenue trends Interactive dashboards with dynamic filters Modular and scalable multi-page architecture
-
-🚀 How to Run Clone the repository Open terminal in the project folder
-
+🏥 Medilytics – Healthcare Revenue Analytics Dashboard
+Medilytics is a multi-page, role-based healthcare revenue analytics dashboard built using Streamlit. It helps hospitals monitor financial performance, detect revenue leakage, and optimize Revenue Cycle Management (RCM).
+________________________________________
+🚀 Key Features
+•	📊 Real-time financial performance monitoring
+•	💸 Revenue leakage detection and insights
+•	📉 Claim denial analysis and prediction
+•	🔍 Billing anomaly detection
+•	📈 Revenue forecasting using time series models
+•	👥 Role-based dashboards (Executive & Analyst views)
+•	🎯 Interactive dashboards with dynamic filters
+________________________________________
+🧠 Machine Learning Models
+•	Claim Prediction Model → Predicts likelihood of claim denial
+•	Forecast Model → Predicts future revenue trends
+________________________________________
+🛠️ Tech Stack
+•	Frontend/App Framework: Streamlit
+•	Data Processing: Pandas, NumPy
+•	Visualization: Matplotlib / Plotly
+•	Machine Learning: Scikit-learn
+________________________________________
+▶️ How to Run
+Clone the repository Open terminal in the project folder
 Install dependencies
-
 Run the app:
-
 streamlit run app.py
-
-User Credentials: Use the credentials specified in users.csv file to login to the dashboard.
-
-This project demonstrates the integration of data analytics, visualization, and machine learning techniques to solve real-world healthcare revenue challenges.
+________________________________________
+🔐 User Credentials
+Use the credentials provided in users.csv to log in.
+________________________________________
+📄 Documentation
+Agile project documentation is available in the Agile docs/ folder.
+________________________________________
+💡 Project Objective
+This project demonstrates how data analytics, visualization, and machine learning can be integrated to solve real-world healthcare revenue challenges such as:
+•	Claim denials
+•	Revenue leakage
+•	Financial inefficiencies
+________________________________________
+🌟 Future Enhancements
+•	Cloud deployment (Streamlit Cloud / AWS)
+•	Real-time data integration
+•	Improved model accuracy
+________________________________________
