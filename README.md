@@ -1,7 +1,7 @@
-🏥 Medilytics – Healthcare Revenue Analytics Dashboard
+#**🏥 Medilytics – Healthcare Revenue Analytics Dashboard**
 Medilytics is a multi-page, role-based healthcare revenue analytics dashboard built using Streamlit. It helps hospitals monitor financial performance, detect revenue leakage, and optimize Revenue Cycle Management (RCM).
-________________________________________
-🚀 Key Features
+
+##🚀 Key Features
 •	📊 Real-time financial performance monitoring
 •	💸 Revenue leakage detection and insights
 •	📉 Claim denial analysis and prediction
@@ -9,37 +9,36 @@ ________________________________________
 •	📈 Revenue forecasting using time series models
 •	👥 Role-based dashboards (Executive & Analyst views)
 •	🎯 Interactive dashboards with dynamic filters
-________________________________________
-🧠 Machine Learning Models
+
+##🧠 Machine Learning Models
 •	Claim Prediction Model → Predicts likelihood of claim denial
 •	Forecast Model → Predicts future revenue trends
-________________________________________
-🛠️ Tech Stack
+
+##🛠️ Tech Stack
 •	Frontend/App Framework: Streamlit
 •	Data Processing: Pandas, NumPy
 •	Visualization: Matplotlib / Plotly
 •	Machine Learning: Scikit-learn
-________________________________________
-▶️ How to Run
+
+##▶️ How to Run
 Clone the repository Open terminal in the project folder
 Install dependencies
 Run the app:
 streamlit run app.py
-________________________________________
-🔐 User Credentials
+
+##🔐 User Credentials
 Use the credentials provided in users.csv to log in.
-________________________________________
-📄 Documentation
+
+##📄 Documentation
 Agile project documentation is available in the Agile docs/ folder.
-________________________________________
-💡 Project Objective
+
+##💡 Project Objective
 This project demonstrates how data analytics, visualization, and machine learning can be integrated to solve real-world healthcare revenue challenges such as:
 •	Claim denials
 •	Revenue leakage
 •	Financial inefficiencies
-________________________________________
-🌟 Future Enhancements
+
+##🌟 Future Enhancements
 •	Cloud deployment (Streamlit Cloud / AWS)
 •	Real-time data integration
 •	Improved model accuracy
-________________________________________
