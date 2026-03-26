@@ -1,4 +1,4 @@
-#🏥 Medilytics – Healthcare Revenue Analytics Dashboard**
+# 🏥 Medilytics – Healthcare Revenue Analytics Dashboard
 
 Medilytics is a multi-page, role-based healthcare revenue analytics dashboard built using Streamlit. It helps hospitals monitor financial performance, detect revenue leakage, and optimize Revenue Cycle Management (RCM).
 
